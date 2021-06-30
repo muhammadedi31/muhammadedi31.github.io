@@ -16,7 +16,7 @@
   </head>
   <body id="home">
 
-   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+   <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
      <div class="container">
           <a class="navbar-brand" href="#">
             <img src="img/icon.png" alt="" width="50" height="50">
@@ -25,7 +25,7 @@
          <span class="navbar-toggler-icon"></span>
        </button>
        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-         <div class="navbar-nav ms-auto">
+         <div class="navbar-nav ms-auto fw-bold">
            <a class="nav-link active" aria-current="page" href="#home">Home</a>
            <a class="nav-link" href="#about">About</a>
            <a class="nav-link" href="#portofolio">Portofolio</a>
@@ -37,12 +37,21 @@
 
 
    <!-- Jumbotron -->
-   <section class="jumbotron text-center">
+   <section class="jumbotron">
      <div class="jumbotron jumbotron-fluid">
        <div class="container">
-        <img src="img/foto.jpg" class="rounded-circle img-thumbnail">
-         <h1 class="display-4">Muhammad Edi Iswanto</h1>
-         <p class="lead">Lecturer || Staf TU || Web Developer</p>
+         <div class="row justify-content-center">
+           <div class="col-md-4 text-end">
+            <img src="img/foto.jpg" class="rounded-circle img-thumbnail">
+           </div>
+           <div class="col-md-8 pt-5">
+            <h1 class="display-4">Muhammad Edi Iswanto</h1>
+            <p class="lead">Lecturer || Staf TU || Web Developer</p>
+           </div>
+         </div>
+
+        
+
        </div>
      </div>
    </section>
@@ -57,18 +66,31 @@
          </div>
        </div>
        <div class="row justify-content-center fs-5 text-center">
-         <div class="col-md-4">
+         <div class="col-md-5 text-star">
            <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            <i class="bi bi-geo-alt-fill text-center"></i>
+            Perumahan Villa Gegesik B12 Gegesik Cirebon
+           </p>
+           <p>
+            <i class="bi bi-telephone-inbound"></i>
+            +6287 829 457 531
            </p>
          </div>
-         <div class="col-md-4">
-           <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-           </p>
-         </div>
+         
+         <div class="col-md-5">
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">HTML (25%)</div>
+            </div>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
        </div>
      </div>
    </section>
